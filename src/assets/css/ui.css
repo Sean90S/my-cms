@@ -344,7 +344,8 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
     width: 120px;
     min-height: 100%;
     background: #fff;
-    padding-top: 0px;
+    padding-top: 50px;
+    transition: all 0.5s ease-in-out;
 }
 
 .left-sidebar .left-sidebar-second a {
@@ -418,7 +419,7 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
     transition: all 0.4s ease-in-out;
     position: relative;
     margin-left: 280px;
-    margin-top: 50px;
+    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -510,7 +511,7 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
 
 .widget-head .widget-title {
     position: relative;
-    font-size: 1.5rem;
+    font-size: .95rem;
 }
 
 .widget-head .widget-title::before {
@@ -519,7 +520,7 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
     width: 4px;
     height: 14px;
     background: #00aeff;
-    top: 6px;
+    top: 4px;
     left: -12px;
 }
 
@@ -1156,12 +1157,12 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
 }
 
 .tpl-table-black thead > tr > th {
-    font-size: 1.3rem;
+    font-size: .8rem;
     padding: 6px;
 }
 
 .tpl-table-black tbody > tr > td {
-    font-size: 1.3rem;
+    font-size: .8rem;
     padding: 7px 6px;
 }
 

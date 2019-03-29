@@ -16,17 +16,17 @@
                     <ul>
                         <!-- 商业版介绍 -->
                         <li class="am-text-sm tpl-header-navbar-welcome">
-                            <a href="index.php?s=/pro" style="font-size: 1.3rem; color: #166bef">
+                            <a href="index.php?s=/pro" style="font-size: .8rem; color: #166bef">
                                 商业版介绍
                             </a>
                         </li>
                         <!-- 欢迎语 -->
-                        <li class="am-text-sm tpl-header-navbar-welcome">
+                        <li class="am-text-sm tpl-header-navbar-welcome" style="font-size: .8rem;">
                             <a href="index.php?s=/store/store.user/renew">欢迎你，<span>admin</span>
                             </a>
                         </li>
                         <!-- 退出 -->
-                        <li class="am-text-sm">
+                        <li class="am-text-sm" style="font-size: .8rem;">
                             <a href="javascript:void(0);">
                                 <i class="iconfont icon-tuichu"></i> 退出
                             </a>
@@ -35,8 +35,8 @@
                 </div>
             </div>
         </header>
-        <NavList></NavList>
-        <StoreUserList></StoreUserList>
+        <NavList @navMenuShow="navMenuShow"></NavList>
+        <!--<StoreUserList :navMenuShow="navigatorTronsfrom"></StoreUserList>-->
     </div>
 </template>
 
@@ -49,7 +49,8 @@
         name: "Main",
         data() {
             return {
-                navigatorTronsfrom: false
+                navigatorTronsfrom: false,
+
             }
         },
         components: {
@@ -57,9 +58,9 @@
             StoreUserList
         },
         methods: {
-            navigatorClick() {
-
-            }
+            navMenuShow(val) {
+                this.navigatorTronsfrom = val;
+            },
         }
     }
 </script>

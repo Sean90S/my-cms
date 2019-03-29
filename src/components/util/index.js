@@ -82,7 +82,7 @@ const UtilTraffic = {
 
         },
         {
-            id: '10', icon: '', menuName: '应用中心'
+            id: '10', icon: '', menuName: '应用中心', children: []
         },
         {
             id: '9', icon: 'icon-setting', menuName: '设置', children: [
