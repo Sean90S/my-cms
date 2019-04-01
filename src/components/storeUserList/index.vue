@@ -66,7 +66,7 @@
         name: "index",
         data() {
             return {
-                blood: false,
+                blood: true,
                 lockerVisible: false,
                 lockerVisible1: false,
             }
