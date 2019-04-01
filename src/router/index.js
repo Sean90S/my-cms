@@ -15,7 +15,7 @@ let routes = [
                 name: 'storeUserList',
                 component: () => import('@/components/storeUserList'),
             },
-            { path: '*', redirect: '/homecurriculum' }
+            { path: '*', redirect: '/storeUserList' }
         ]
     }
 ]
